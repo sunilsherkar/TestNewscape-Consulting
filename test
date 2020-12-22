@@ -1,1 +1,5 @@
 Select EmpName As value,EmpName As Text,cast(1 as bit) As Selected from Emp
+
+
+@Html.DropDownList("BusinessCategoryID", new SelectList((System.Collections.IEnumerable)ViewData["Department"], "Value", "Text"), "Select Category", new { @class = "form-control", @id = "BusinessCategoryID1", Title = "BusinessCategoryID" })
+@Html.DropDownList("BusinessCategoryID", new SelectList((System.Collections.IEnumerable)ViewData["Employee"], "Value", "Text"), "Select Category", new { @class = "form-control", @id = "BusinessCategoryID2", Title = "BusinessCategoryID" })
