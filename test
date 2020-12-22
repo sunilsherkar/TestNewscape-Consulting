@@ -1,0 +1,1 @@
+Select EmpName As value,EmpName As Text,cast(1 as bit) As Selected from Emp
