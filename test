@@ -1,5 +1,5 @@
-Select EmpName As value,EmpName As Text,cast(1 as bit) As Selected from Emp
+Microsoft Teams meeting 
+Join on your computer or mobile app 
+Click here to join the meeting 
 
-
-@Html.DropDownList("BusinessCategoryID", new SelectList((System.Collections.IEnumerable)ViewData["Department"], "Value", "Text"), "Select Category", new { @class = "form-control", @id = "BusinessCategoryID1", Title = "BusinessCategoryID" })
-@Html.DropDownList("BusinessCategoryID", new SelectList((System.Collections.IEnumerable)ViewData["Employee"], "Value", "Text"), "Select Category", new { @class = "form-control", @id = "BusinessCategoryID2", Title = "BusinessCategoryID" })
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmIyM2RlNWQtYzU1ZC00NjA3LWE2MmYtNTFjYWViMGQ0MWE1%40thread.v2/0?context=%7b%22Tid%22%3a%2239b03722-b836-496a-85ec-850f0957ca6b%22%2c%22Oid%22%3a%22ea36d601-b75e-4f2e-8405-37ecc573da52%22%7d
