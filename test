@@ -4,3 +4,12 @@ sql5065.site4now.net
 DB_A6CA88_sunilvibhuti_admin
 
 Sunil@123
+
+
+        public JsonResult GetRoleList()
+        {
+            jobDbContext _db = new jobDbContext();
+            var lstItem = binddropdown("RoleName", 0).Select(i => new { i.Value, i.Text }).ToList();
+            //_spService.BindDropdown("PricingUser", "", "").Select(i => new { i.Value, i.Text }).ToList();
+            return Json(lstItem, JsonRequestBehavior.AllowGet);
+        }
